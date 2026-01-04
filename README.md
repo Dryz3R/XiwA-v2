@@ -1,130 +1,148 @@
-```markdown
-# XiwA-v2
-
-Template de développement avec architecture moderne
-
----
+<!-- ========================= -->
+<!--        HEADER             -->
+<!-- ========================= -->
 
 <div align="center">
 
-## Présentation
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d0d0d&height=160&section=header&text=XiwA%20v2&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Modular%20Security%20Tool%20%7C%20OSINT%20%26%20Audit&descAlignY=70"/>
 
-[![Repository Card](https://github-readme-stats.vercel.app/api/pin/?username=Dryz3R&repo=XiwA-v2&theme=default&show_owner=true)](https://github.com/Dryz3R/XiwA-v2)
+<br/>
+
+![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge&color=000000)
+![Python](https://img.shields.io/badge/python-3.x-000000?style=for-the-badge&logo=python)
+![License](https://img.shields.io/badge/license-MIT-000000?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-cross--platform-000000?style=for-the-badge)
 
 </div>
 
-## Description
+---
 
-XiwA-v2 est un template structuré pour le développement web moderne. Il propose une architecture claire et des configurations optimisées pour faciliter le démarrage de nouveaux projets.
+## 🧠 Présentation
 
-### Fonctionnalités
-- Architecture modulaire et maintenable
-- Configuration de build optimisée
-- Structure de fichiers organisée
-- Support des technologies modernes
+**XiwA v2** est un **outil modulaire** orienté **OSINT, audit et analyse technique**, conçu pour être :
+- structuré
+- extensible
+- lisible
+- maintenable
 
-## Installation
+Contrairement aux outils monolithiques, XiwA privilégie une **approche toolbox**, avec des modules indépendants et personnalisables.
+
+> 🎯 Objectif : **puissance réelle + contrôle**, sans dépendre d’un usage unique.
+
+---
+
+## 📦 Modules disponibles
+
+programs/
+├── EmailLookup.py
+├── IPLocalisater.py
+├── IPPortScanner.py
+├── ImageToExif.py
+├── WebsiteWhois.py
+├── WebsiteSQLi.py
+├── WebsitePhpInfoFinder.py
+├── WebsiteShortURL.py
+├── PenetrationTest.py
+├── PhishingAttack.py
+├── GooglePhishingAttack.py
+└── VirusBuilder.py
+
+
+Chaque module est **isolé**, **appelable indépendamment**, et peut être :
+- modifié
+- retiré
+- amélioré
+sans casser le reste du projet.
+
+---
+
+## ⚙️ Installation
 
 ```bash
 git clone https://github.com/Dryz3R/XiwA-v2.git
 cd XiwA-v2
-npm install
+pip install -r requirements.txt
 ```
 
-## Utilisation
+## 🚀 Utilisation
 
-```bash
-# Développement
-npm run dev
+python XiwA.py
 
-# Build de production
-npm run build
+📊 Statistiques du dépôt
+<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Dryz3R&show_icons=true&theme=dark&hide_border=true"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dryz3R&layout=compact&theme=dark&hide_border=true"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dryz3R&theme=dark&hide_border=true"/> </div>
+🧩 Philosophie du projet
 
-# Tests
-npm test
+❌ Pas un script monolithique
 
-# Linting
-npm run lint
-```
+✅ Architecture claire
 
----
+✅ Modules indépendants
 
-<div align="center">
+✅ Évolutif
 
-## Technologies
+✅ Approche long terme
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-20.x-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Git](https://img.shields.io/badge/Git-2.x-F05032?style=for-the-badge&logo=git&logoColor=white)
+XiwA v2 est pensé pour durer, pas impressionner 5 minutes.
 
-## Statistiques
+## Cadre d’utilisation
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dryz3R&layout=compact&theme=default)
+XiwA v2 est destiné à :
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dryz3R&show_icons=true&theme=default)
+l’apprentissage
 
-</div>
+les environnements de test
 
-## Structure du projet
+l’audit contrôlé
 
-```
-XiwA-v2/
-├── src/
-│   ├── components/
-│   ├── styles/
-│   ├── utils/
-│   └── main.js
-├── public/
-├── tests/
-├── package.json
-├── README.md
-└── .gitignore
-```
+les labs personnels
+
+la recherche technique
 
 ## Contribution
 
-1. Fork le projet
-2. Crée une branche (`git checkout -b feature/amélioration`)
-3. Commit tes changements (`git commit -m 'Ajout d'une fonctionnalité'`)
-4. Push vers la branche (`git push origin feature/amélioration`)
-5. Ouvre une Pull Request
+```bash
 
-## Scripts disponibles
-
-| Script | Description |
-|--------|-------------|
-| `dev` | Lance le serveur de développement |
-| `build` | Compile pour la production |
-| `test` | Exécute les tests |
-| `lint` | Vérifie le code avec le linter |
-
-## Dépôts associés
-
-<div align="center">
-
-[![Projet 1](https://github-readme-stats.vercel.app/api/pin/?username=Dryz3R&repo=projet-1&theme=default)](https://github.com/Dryz3R/projet-1)
-[![Projet 2](https://github-readme-stats.vercel.app/api/pin/?username=Dryz3R&repo=projet-2&theme=default)](https://github.com/Dryz3R/projet-2)
-
-</div>
-
-## Activité récente
-
-```text
-Dernier commit: [date]
-Dernier tag: v1.0.0
-Branche principale: main
+git checkout -b feature/amelioration
+git commit -m "Ajout module / amélioration"
+git push origin feature/amelioration
 ```
 
-## Licence
 
-MIT License - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+```📄 Licence
+
+Distribué sous licence MIT
+Voir le fichier LICENSE
+
+<!-- ========================= --> <!-- FOOTER --> <!-- ========================= --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0d0d0d&height=120&section=footer&animation=fadeIn"/> <br/>
+
+Développé par Dryz3R
+🔗 https://github.com/Dryz3R
+
+</div> ```
+
+
+
+## 📄 Licence
+
+Distribué sous licence **MIT**
+Voir le fichier [LICENSE](LICENSE)
 
 ---
 
+<!-- ========================= -->
+
+<!--        FOOTER             -->
+
+<!-- ========================= -->
+
 <div align="center">
 
-**Développé par Dryz3R**  
-[Visiter le profil GitHub](https://github.com/Dryz3R)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d0d0d&height=120&section=footer&animation=fadeIn"/>
+
+<br/>
+
+**Développé par Dryz3R**
+🔗 [https://github.com/Dryz3R](https://github.com/Dryz3R)
 
 </div>
 ```
