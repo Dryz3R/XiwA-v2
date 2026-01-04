@@ -4,13 +4,20 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0b0b0b&height=150&section=header&text=XiwA%20v2&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Modular%20Toolbox%20for%20Analysis%20and%20Security&descAlignY=70"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0b0b0b&height=160&section=header&text=XiwA%20v2&fontSize=46&fontColor=ffffff&animation=fadeIn&desc=Modular%20Toolbox%20for%20Analysis%20and%20Security&descAlignY=75"/>
 
 <br/>
 
-![Status](https://img.shields.io/badge/status-active-black?style=flat-square)
-![Python](https://img.shields.io/badge/python-3.x-black?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-black?style=flat-square)
+<strong>Framework modulaire orienté analyse, OSINT et tests techniques</strong>
+
+<br/><br/>
+
+<img src="https://img.shields.io/github/stars/Dryz3R/XiwA-v2?style=flat-square&color=000000">
+<img src="https://img.shields.io/github/repo-size/Dryz3R/XiwA-v2?style=flat-square&color=000000">
+<img src="https://img.shields.io/github/license/Dryz3R/XiwA-v2?style=flat-square&color=000000">
+<img src="https://img.shields.io/github/last-commit/Dryz3R/XiwA-v2?style=flat-square&color=000000">
+
+<br/><br/>
 
 </div>
 
@@ -18,15 +25,16 @@
 
 ## Présentation
 
-**XiwA v2** est un projet modulaire conçu comme une **boîte à outils technique**.  
-Il regroupe différents scripts orientés analyse, OSINT et tests techniques, organisés dans une architecture claire et extensible.
+**XiwA v2** est une évolution complète de la première version.  
+Le projet est conçu comme une **boîte à outils modulaire**, chaque fonctionnalité étant isolée dans son propre module.
 
-Le projet met l’accent sur :
-- la séparation des responsabilités
-- la lisibilité du code
-- la possibilité d’ajouter ou retirer des modules sans impacter l’ensemble
+Objectifs principaux :
+- architecture claire
+- modules indépendants
+- extensibilité simple
+- base de travail propre et maintenable
 
-XiwA n’est pas pensé comme un outil monolithique mais comme une base évolutive.
+Ce projet n’est pas un simple script, mais une **fondation technique**.
 
 ---
 
@@ -52,20 +60,18 @@ XiwA-v2/
 └── README.md
 ```
 
-Chaque fichier dans `programs/` correspond à un module indépendant.
+Chaque module est conçu pour fonctionner de manière autonome.
 
 ---
 
-## Philosophie
+## Philosophie du projet
 
-XiwA v2 repose sur quelques principes simples :
+- séparation stricte des responsabilités
+- aucune dépendance inutile
+- code lisible avant d’être complexe
+- évolution progressive sans casser l’existant
 
-- pas de dépendance inutile entre modules
-- logique claire et explicite
-- code modifiable sans effet de bord
-- priorité à la compréhension plutôt qu’à l’obfuscation
-
-Le projet vise à servir de base de travail, d’expérimentation ou d’apprentissage avancé.
+XiwA v2 sert autant de **toolbox** que de **base d’apprentissage avancée**.
 
 ---
 
@@ -85,15 +91,15 @@ pip install -r requirements.txt
 python main.py
 ```
 
-Le point d’entrée centralise l’accès aux modules disponibles.
+Le fichier principal agit comme point d’entrée et menu central.
 
 ---
 
-## État du dépôt
+## Statistiques GitHub
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Dryz3R&show_icons=true&theme=dark&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Dryz3R&show_icons=true&theme=dark&hide_border=true&count_private=true"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dryz3R&layout=compact&theme=dark&hide_border=true"/>
 
@@ -103,12 +109,12 @@ Le point d’entrée centralise l’accès aux modules disponibles.
 
 ## Cadre d’utilisation
 
-Ce projet est fourni à des fins :
-- éducatives
-- expérimentales
-- de test en environnement contrôlé
+Ce projet est destiné :
+- à l’apprentissage
+- à la recherche technique
+- aux tests en environnement contrôlé
 
-L’utilisateur est seul responsable de l’usage qu’il fait des outils proposés et du respect des lois applicables.
+Toute utilisation doit respecter les lois en vigueur et les conditions des services concernés.
 
 ---
 
@@ -118,7 +124,7 @@ Les contributions sont possibles via pull request :
 
 ```bash
 git checkout -b feature/amelioration
-git commit -m "Amélioration ou ajout de module"
+git commit -m "Ajout ou amélioration de module"
 git push origin feature/amelioration
 ```
 
@@ -128,14 +134,14 @@ Merci de documenter clairement toute modification.
 
 ## Licence
 
-Projet distribué sous licence **MIT**.  
+Distribué sous licence **MIT**.  
 Voir le fichier `LICENSE` pour plus d’informations.
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0b0b0b&height=120&section=footer&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0b0b0b&height=120&section=footer"/>
 
 Développé par Dryz3R  
 https://github.com/Dryz3R
