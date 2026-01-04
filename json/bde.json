@@ -1,8 +1,0 @@
-{
-    "name": "Oxyl Database",
-    "tables": ["users", "scans", "results"],
-    "version": "1.0",
-    "last_backup": "2024-01-01",
-    "auto_save": true,
-    "encryption": false
-}
