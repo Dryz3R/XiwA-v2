@@ -1,62 +1,75 @@
-<!-- ========================= -->
-<!--        HEADER             -->
-<!-- ========================= -->
+<!-- ================================================= -->
+<!--                    XiwA v2                        -->
+<!-- ================================================= -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d0d0d&height=160&section=header&text=XiwA%20v2&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Modular%20Security%20Tool%20%7C%20OSINT%20%26%20Audit&descAlignY=70"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0b0b0b&height=150&section=header&text=XiwA%20v2&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Modular%20Toolbox%20for%20Analysis%20and%20Security&descAlignY=70"/>
 
 <br/>
 
-![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge&color=000000)
-![Python](https://img.shields.io/badge/python-3.x-000000?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/license-MIT-000000?style=for-the-badge)
-![Platform](https://img.shields.io/badge/platform-cross--platform-000000?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-active-black?style=flat-square)
+![Python](https://img.shields.io/badge/python-3.x-black?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-black?style=flat-square)
 
 </div>
 
 ---
 
-## 🧠 Présentation
+## Présentation
 
-**XiwA v2** est un **outil modulaire** orienté **OSINT, audit et analyse technique**, conçu pour être :
-- structuré
-- extensible
-- lisible
-- maintenable
+**XiwA v2** est un projet modulaire conçu comme une **boîte à outils technique**.  
+Il regroupe différents scripts orientés analyse, OSINT et tests techniques, organisés dans une architecture claire et extensible.
 
-Contrairement aux outils monolithiques, XiwA privilégie une **approche toolbox**, avec des modules indépendants et personnalisables.
+Le projet met l’accent sur :
+- la séparation des responsabilités
+- la lisibilité du code
+- la possibilité d’ajouter ou retirer des modules sans impacter l’ensemble
 
-> 🎯 Objectif : **puissance réelle + contrôle**, sans dépendre d’un usage unique.
-
----
-
-## 📦 Modules disponibles
-
-programs/
-├── EmailLookup.py
-├── IPLocalisater.py
-├── IPPortScanner.py
-├── ImageToExif.py
-├── WebsiteWhois.py
-├── WebsiteSQLi.py
-├── WebsitePhpInfoFinder.py
-├── WebsiteShortURL.py
-├── PenetrationTest.py
-├── PhishingAttack.py
-├── GooglePhishingAttack.py
-└── VirusBuilder.py
-
-
-Chaque module est **isolé**, **appelable indépendamment**, et peut être :
-- modifié
-- retiré
-- amélioré
-sans casser le reste du projet.
+XiwA n’est pas pensé comme un outil monolithique mais comme une base évolutive.
 
 ---
 
-## ⚙️ Installation
+## Structure du projet
+
+```
+XiwA-v2/
+├── main.py
+├── programs/
+│   ├── EmailLookup.py
+│   ├── IPLocalisater.py
+│   ├── IPPortScanner.py
+│   ├── ImageToExif.py
+│   ├── WebsiteWhois.py
+│   ├── WebsiteSQLi.py
+│   ├── WebsitePhpInfoFinder.py
+│   ├── WebsiteShortURL.py
+│   ├── PenetrationTest.py
+│   ├── PhishingAttack.py
+│   ├── GooglePhishingAttack.py
+│   └── VirusBuilder.py
+├── requirements.txt
+└── README.md
+```
+
+Chaque fichier dans `programs/` correspond à un module indépendant.
+
+---
+
+## Philosophie
+
+XiwA v2 repose sur quelques principes simples :
+
+- pas de dépendance inutile entre modules
+- logique claire et explicite
+- code modifiable sans effet de bord
+- priorité à la compréhension plutôt qu’à l’obfuscation
+
+Le projet vise à servir de base de travail, d’expérimentation ou d’apprentissage avancé.
+
+---
+
+## Installation
 
 ```bash
 git clone https://github.com/Dryz3R/XiwA-v2.git
@@ -64,85 +77,67 @@ cd XiwA-v2
 pip install -r requirements.txt
 ```
 
-## 🚀 Utilisation
+---
 
-python XiwA.py
-
-📊 Statistiques du dépôt
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Dryz3R&show_icons=true&theme=dark&hide_border=true"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dryz3R&layout=compact&theme=dark&hide_border=true"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dryz3R&theme=dark&hide_border=true"/> </div>
-🧩 Philosophie du projet
-
-❌ Pas un script monolithique
-
-✅ Architecture claire
-
-✅ Modules indépendants
-
-✅ Évolutif
-
-✅ Approche long terme
-
-XiwA v2 est pensé pour durer, pas impressionner 5 minutes.
-
-## Cadre d’utilisation
-
-XiwA v2 est destiné à :
-
-l’apprentissage
-
-les environnements de test
-
-l’audit contrôlé
-
-les labs personnels
-
-la recherche technique
-
-## Contribution
+## Utilisation
 
 ```bash
-
-git checkout -b feature/amelioration
-git commit -m "Ajout module / amélioration"
-git push origin feature/amelioration
+python main.py
 ```
 
-
-```📄 Licence
-
-Distribué sous licence MIT
-Voir le fichier LICENSE
-
-<!-- ========================= --> <!-- FOOTER --> <!-- ========================= --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0d0d0d&height=120&section=footer&animation=fadeIn"/> <br/>
-
-Développé par Dryz3R
-🔗 https://github.com/Dryz3R
-
-</div> ```
-
-
-
-## 📄 Licence
-
-Distribué sous licence **MIT**
-Voir le fichier [LICENSE](LICENSE)
+Le point d’entrée centralise l’accès aux modules disponibles.
 
 ---
 
-<!-- ========================= -->
-
-<!--        FOOTER             -->
-
-<!-- ========================= -->
+## État du dépôt
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d0d0d&height=120&section=footer&animation=fadeIn"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Dryz3R&show_icons=true&theme=dark&hide_border=true"/>
 
-<br/>
-
-**Développé par Dryz3R**
-🔗 [https://github.com/Dryz3R](https://github.com/Dryz3R)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dryz3R&layout=compact&theme=dark&hide_border=true"/>
 
 </div>
+
+---
+
+## Cadre d’utilisation
+
+Ce projet est fourni à des fins :
+- éducatives
+- expérimentales
+- de test en environnement contrôlé
+
+L’utilisateur est seul responsable de l’usage qu’il fait des outils proposés et du respect des lois applicables.
+
+---
+
+## Contribution
+
+Les contributions sont possibles via pull request :
+
+```bash
+git checkout -b feature/amelioration
+git commit -m "Amélioration ou ajout de module"
+git push origin feature/amelioration
 ```
+
+Merci de documenter clairement toute modification.
+
+---
+
+## Licence
+
+Projet distribué sous licence **MIT**.  
+Voir le fichier `LICENSE` pour plus d’informations.
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0b0b0b&height=120&section=footer&animation=fadeIn"/>
+
+Développé par Dryz3R  
+https://github.com/Dryz3R
+
+</div>
